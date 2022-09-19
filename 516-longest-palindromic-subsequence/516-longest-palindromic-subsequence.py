@@ -1,20 +1,29 @@
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         
-        s, t = s, s[::-1]
         n = len(s)
-        cache = [[-1 for _ in range(n+1)] for _ in range(n+1)]
-        def solve(left, right):
-            
-            if left > right: return 0
-            if left == right: return 1
-            if cache[left][right] != -1: return cache[left][right]
-            
-            if s[left] == s[right]:
-                return 2 + solve(left+1, right-1)
-            
-            cache[left][right] =  max(solve(left+1, right), solve(left, right-1))
-            return cache[left][right] 
-        
-        
-        return solve(0, n-1)
+        cache = [[0 for _ in range(n+1)] for _ in range(n+1)]
+        ans = 0
+        for gap in range(0, n):
+            row, col = 0, gap
+            while col < n:
+                
+                if gap == 0:
+                    cache[row][col] = 1
+                elif gap == 1:
+                    cache[row][col] = 2 if s[row] == s[col] else 1
+                else:
+                
+                    if s[col] == s[row]:
+                        cache[row][col] = 2 + cache[row+1][col-1]
+                    else:
+                        cache[row][col] = max(cache[row][col-1], cache[row+1][col])
+                ans = max(ans, cache[row][col]) 
+                    
+                
+                row += 1
+                col += 1
+             
+                
+                
+        return ans
