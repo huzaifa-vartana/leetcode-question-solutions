@@ -1,29 +1,33 @@
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
         
+        
+#         left, right
+# lcs
+# gap method
         n = len(s)
         cache = [[0 for _ in range(n+1)] for _ in range(n+1)]
         ans = 0
-        for gap in range(0, n):
-            row, col = 0, gap
-            while col < n:
-                
-                if gap == 0:
-                    cache[row][col] = 1
-                elif gap == 1:
-                    cache[row][col] = 2 if s[row] == s[col] else 1
+        for g in range(n):
+            i, j = 0, g
+            
+            while j < n:
+                if g == 0:
+                    cache[i][j] = 1
+                elif g == 1:
+                    cache[i][j] = 2 if s[i] == s[j] else 1
                 else:
-                
-                    if s[col] == s[row]:
-                        cache[row][col] = 2 + cache[row+1][col-1]
+                    if s[i] == s[j]:
+                        cache[i][j] = 2 + cache[i+1][j-1]
                     else:
-                        cache[row][col] = max(cache[row][col-1], cache[row+1][col])
-                ans = max(ans, cache[row][col]) 
-                    
-                
-                row += 1
-                col += 1
-             
+                        cache[i][j] = max(cache[i+1][j], cache[i][j-1])
+                        
+                ans = max(ans, cache[i][j])
                 
                 
+                
+                
+                i += 1
+                j += 1
+        
         return ans
