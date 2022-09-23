@@ -4,22 +4,16 @@ class Solution:
         n = len(prices)
 
 
-        cache = [[-1 for _ in range(2)] for _ in range(n+1)]
+        cache = [[float('-inf') for _ in range(2)] for _ in range(n+1)]
+        cache[n][True] = 0
+        cache[n][False] = 0
+        for idx in range(n-1, -1, -1):
+            for lastBought in [True, False]:
 
-
-        def solve(idx,  lastBought):
-
-            if idx >= n: return 0
-            if cache[idx][lastBought] != -1: return cache[idx][lastBought]
-
-            if not lastBought:
-                cache[idx][lastBought] = max(-prices[idx] + solve(idx+1, True),
-                                   solve(idx+1, False))
-                return cache[idx][lastBought]
-            else:
-                cache[idx][lastBought] = max(prices[idx] + solve(idx+1, False),
-                                   solve(idx+1, lastBought))
-                return cache[idx][lastBought]
+                if not lastBought:
+                    cache[idx][lastBought] = max(-prices[idx] + cache[idx+1][True], cache[idx+1][False])
+                else:
+                    cache[idx][lastBought] = max(prices[idx] + cache[idx+1][False], cache[idx+1][lastBought])
 
             
-        return solve(0, False)
+        return cache[0][False]
