@@ -2,30 +2,51 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         
         n = len(prices)
-        cache = [[-1 for _ in range(4)] for _ in range(n+1)]
-        def solve(idx, trans):
-            if idx >= n: return 0
-            if trans >= 4: return 0
-            if cache[idx][trans] != -1: return cache[idx][trans]
-            
-            buy = trans % 2 == 0
+        cache = [[0 for _ in range(5)] for _ in range(n+1)]
+        for idx in range(n-1, -1, -1):
+            for trans in range(3, -1, -1):
+                
 
-            if buy:
-                buy = -prices[idx] + solve(idx+1, trans+1)
-                notBuy = solve(idx+1, trans)
+                if trans % 2 == 0:
+                    buy = -prices[idx] + cache[idx+1][trans+1]
+                    notBuy = cache[idx+1][trans] 
+
+                    cache[idx][trans] = max(buy, notBuy)
+                else:
+                    cache[idx][trans] = max(
+                        prices[idx] + cache[idx+1][trans+1],
+                        cache[idx+1][trans]
+                    )
+
+        return cache[0][0]
+    
+    
+#             n = len(prices)
+#         cache = [[-1 for _ in range(4)] for _ in range(n+1)]
+        
+#         def solve(idx, trans):
+#             if idx >= n: return 0
+#             if trans >= 4: return 0
+#             if cache[idx][trans] != -1: return cache[idx][trans]
+            
+#             buy = trans % 2 == 0
+
+#             if buy:
+#                 buy = -prices[idx] + solve(idx+1, trans+1)
+#                 notBuy = solve(idx+1, trans)
                 
-                cache[idx][trans] = max(buy, notBuy)
-                return cache[idx][trans]
-            else:
-                cache[idx][trans] = max(
-                    prices[idx] + solve(idx+1, trans+1),
-                    solve(idx+1, trans)
-                )
-                return cache[idx][trans]
+#                 cache[idx][trans] = max(buy, notBuy)
+#                 return cache[idx][trans]
+#             else:
+#                 cache[idx][trans] = max(
+#                     prices[idx] + solve(idx+1, trans+1),
+#                     solve(idx+1, trans)
+#                 )
+#                 return cache[idx][trans]
                 
         
         
-        return solve(0, 0)
+#         return solve(0, 0)
 
 #         # cache = [[[0 for _ in range(3)] for _ in range(2)] for _ in range(n+1)]
 #         prev = [[0 for _ in range(3)] for _ in range(2)]
