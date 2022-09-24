@@ -4,16 +4,19 @@ class Solution:
         n = len(prices)
 
 
-        cache = [[float('-inf') for _ in range(2)] for _ in range(n+1)]
-        cache[n][True] = 0
-        cache[n][False] = 0
+        # cache = [[float('-inf') for _ in range(2)] for _ in range(n+1)]
+        # cache[n][True] = 0
+        # cache[n][False] = 0
+        curr, prev = [float('-inf')] * (2), [float('-inf')] * (2)
+        prev[False] = prev[True] = 0
         for idx in range(n-1, -1, -1):
             for lastBought in [True, False]:
 
                 if not lastBought:
-                    cache[idx][lastBought] = max(-prices[idx] + cache[idx+1][True], cache[idx+1][False])
+                    curr[lastBought] = max(-prices[idx] + prev[True], prev[False])
                 else:
-                    cache[idx][lastBought] = max(prices[idx] + cache[idx+1][False], cache[idx+1][lastBought])
-
+                    curr[lastBought] = max(prices[idx] + prev[False], prev[lastBought])
             
-        return cache[0][False]
+            prev = curr.copy()
+            
+        return prev[False]
