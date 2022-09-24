@@ -3,25 +3,29 @@ class Solution:
         
         n = len(prices)
 
-        cache = [[[0 for _ in range(3)] for _ in range(2)] for _ in range(n+1)]
+        # cache = [[[0 for _ in range(3)] for _ in range(2)] for _ in range(n+1)]
+        prev = [[0 for _ in range(3)] for _ in range(2)]
+        
+        
         for idx in range(n-1, -1, -1):
+            curr = [[0 for _ in range(3)] for _ in range(2)]
             for lastBought in [True, False]:
                 for totalSales in range(2):
                     if not lastBought:
-                        buy = -prices[idx] + cache[idx+1][True][totalSales]
-                        notBuy = cache[idx+1][False][totalSales]
+                        buy = -prices[idx] + prev[True][totalSales]
+                        notBuy = prev[False][totalSales]
 
-                        cache[idx][lastBought][totalSales] = max(buy, notBuy) 
+                        curr[lastBought][totalSales] = max(buy, notBuy) 
 
                     elif lastBought:
-                        cache[idx][lastBought][totalSales] = max(
-                            prices[idx] + cache[idx+1][False][totalSales+1],
-                            cache[idx+1][lastBought][totalSales])
+                        curr[lastBought][totalSales] = max(
+                            prices[idx] + prev[False][totalSales+1],
+                            prev[lastBought][totalSales])
 
-
+            prev = curr.copy()
 
         
-        return cache[0][False][0]
+        return prev[False][0]
                     
                     
                     
