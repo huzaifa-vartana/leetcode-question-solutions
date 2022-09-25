@@ -3,13 +3,14 @@ class Solution:
         
         
         n = len(prices)
-        cache = [[0 for _ in range(2)] for _ in range(n+1)]
+        prev = [0 for _ in range(2)]
         for idx in range(n-1, -1, -1):
+            curr = [0 for _ in range(2)]
             for buy in [True, False]:
-
                 if buy:
-                    cache[idx][buy] = max(-prices[idx] + cache[idx+1][False], cache[idx+1][True])
+                    curr[buy] = max(-prices[idx] + prev[False], prev[True])
                 else:
-                    cache[idx][buy] = max(prices[idx] + cache[idx+1][True], cache[idx+1][buy])
+                    curr[buy] = max(prices[idx] + prev[True], prev[buy])
+            prev = curr
             
-        return cache[0][True]
+        return prev[True]
