@@ -3,21 +3,25 @@ class Solution:
         
         
         n = len(prices)
-        cache = [[0 for _ in range(2)] for _ in range(n+1)]
+        prev = [0 for _ in range(2)]
+        last = [0 for _ in range(2)]
         for idx in range(n-1, -1, -1):
+            curr = [0 for _ in range(2)]
             for buy in [True, False]:
                 
                 if buy:
-                    cache[idx][buy] = max(-prices[idx] + cache[idx+1][False], cache[idx+1][True])
+                    curr[buy] = max(-prices[idx] + prev[False], prev[True])
 
                 else:
-                    if idx+2 <= n: 
-                        tmp = prices[idx] + cache[idx+2][True]
-                    else:
-                        tmp = prices[idx] + 0
-                    cache[idx][buy] = max(tmp, cache[idx+1][buy])
+                    # if idx+2 <= n: 
+                    #     tmp = prices[idx] + prev[True]
+                    # else:
+                    #     tmp = prices[idx] + 0
+                    tmp = prices[idx] + last[True]
+                    curr[buy] = max(tmp, prev[buy])
+                    
+            last = prev.copy()
+            prev = curr.copy()
 
             
-            
-            
-        return cache[0][True]
+        return prev[True]
