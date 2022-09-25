@@ -1,25 +1,21 @@
 class Solution:
     def countSubstrings(self, s: str) -> int:
         
-        n = len(s)
+        n, count = len(s), 0
+        cache = [[False for _ in range(n+1)] for _ in range(n+1)]
         
-        cache = [[0 for _ in range(n+1)] for _ in range(n+1)]
-        
-        ans = 0
-        for g in range(n):
-            i, j = 0, g
+        for gap in range(n):
+            i, j = 0, gap
             while j < n:
                 
-                if g == 0: cache[i][j] = True
-                elif g == 1 and s[i] == s[j]: cache[i][j] = True
+                if gap == 0: cache[i][j] = True
+                elif gap == 1 and s[i] == s[j]: cache[i][j] = True
                 else:
-                    if s[i] == s[j] and cache[i+1][j-1]: 
-                        cache[i][j] = True
-                        
-                    
+                    if s[i] == s[j] and cache[i+1][j-1]: cache[i][j] = True
+                
+                if cache[i][j]: count += 1
+                i += 1
+                j += 1
                 
                 
-                if cache[i][j]: ans += 1
-                i, j = i+1, j+1
-        
-        return ans
+        return count
