@@ -1,20 +1,21 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         
+        
         n = len(prices)
+        cache = [[-1 for _ in range(2)] for _ in range(n+1)]
         
-        prev = [float('-inf')] * (2)
-        prev[False] = prev[True] = 0
         
-        for idx in range(n-1, -1, -1):
-            curr = [float('-inf')] * (2)
-            for lastBought in [True, False]:
-
-                if not lastBought:
-                    curr[lastBought] = max(-prices[idx] + prev[True], prev[False])
-                else:
-                    curr[lastBought] = max(prices[idx] + prev[False], prev[lastBought])
+        
+        def solve(idx, buy):
+            if idx >= n: return 0
+            if cache[idx][buy] != -1: return cache[idx][buy]
             
-            prev = curr.copy()
+            if buy:
+                cache[idx][buy] = max(-prices[idx] + solve(idx+1, False), solve(idx+1, True))
+                return cache[idx][buy]
+            else:
+                cache[idx][buy] = max(prices[idx] + solve(idx+1, True), solve(idx+1, buy))
+                return cache[idx][buy]
             
-        return prev[False]
+        return solve(0, True)
