@@ -4,25 +4,20 @@ class Solution:
         
         
         n, m = len(s), len(t)
-        cache = [[-1 for _ in range(m+1)] for _ in range(n+1)]
-        def cache1(i, j):
+        cache = [[0 for _ in range(m+1)] for _ in range(n+1)]
+        for col in range(m+1):
+            cache[n][col] = m - col
+        for row in range(n+1):
+            cache[row][m] = n - row
             
-            if i >= n and j >= m: return 0
-            if i >= n: return m - j
-            if j >= m: return n - i
-            if cache[i][j] != -1: return cache[i][j]
-            
-            
-            
-            if s[i] != t[j]:
-                cache[i][j] = 1 + min(cache1(i+1, j+1), cache1(i, j+1), cache1(i+1, j))
-                return cache[i][j]
-            
-            cache[i][j] = cache1(i+1, j+1)
-            return cache[i][j]
-            
+        for i in range(n-1, -1, -1):
+            for j in range(m-1, -1, -1):
                 
-        return cache1(0, 0)
+                if s[i] != t[j]: cache[i][j] = 1 + min(cache[i+1][j+1], cache[i][j+1], cache[i+1][j])
+                else: cache[i][j] = cache[i+1][j+1]
+
+            
+        return cache[0][0]
         
         
         
