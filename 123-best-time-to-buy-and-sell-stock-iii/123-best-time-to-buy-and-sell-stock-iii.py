@@ -1,22 +1,83 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         
+        
         n = len(prices)
-        # cache = [[0 for _ in range(5)] for _ in range(n+1)]
+        # cache = [[-1 for _ in range(3)] for _ in range(n+1)]
         prev = [0 for _ in range(5)]
         for idx in range(n-1, -1, -1):
             curr = [0 for _ in range(5)]
             for trans in range(3, -1, -1):
-                if trans % 2 == 0:
-                    buy = -prices[idx] + prev[trans+1]
-                    notBuy = prev[trans] 
 
-                    curr[trans] = max(buy, notBuy)
+                buy = trans % 2 == 0
+            
+                if buy:
+                    curr[trans] = max(-prices[idx] + prev[trans+1], prev[trans])
                 else:
                     curr[trans] = max(prices[idx] + prev[trans+1], prev[trans])
-            prev = curr.copy()
-
+            prev = curr
+                
+        
         return prev[0]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+#         n = len(prices)
+#         prev = [0 for _ in range(5)]
+#         for idx in range(n-1, -1, -1):
+#             curr = [0 for _ in range(5)]
+#             for trans in range(3, -1, -1):
+#                 if trans % 2 == 0:
+#                     buy = -prices[idx] + prev[trans+1]
+#                     notBuy = prev[trans] 
+
+#                     curr[trans] = max(buy, notBuy)
+#                 else:
+#                     curr[trans] = max(prices[idx] + prev[trans+1], prev[trans])
+#             prev = curr.copy()
+
+#         return prev[0]
     
     
 #             n = len(prices)
