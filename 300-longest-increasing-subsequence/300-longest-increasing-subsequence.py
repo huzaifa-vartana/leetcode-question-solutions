@@ -4,14 +4,14 @@ class Solution:
 
         def bs(nums, key):
             low, high = 0, len(nums) - 1
-            while low < high:
+            while low <= high:
                 mid = (low+high) // 2
                 if nums[mid] == key:
                     return mid
                 if nums[mid] > key:
-                    high = mid
+                    high = mid - 1
                 else:
-                    low = mid+1
+                    low = mid + 1
 
             return low
         
