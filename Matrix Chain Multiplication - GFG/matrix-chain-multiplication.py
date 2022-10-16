@@ -5,24 +5,25 @@ class Solution:
         
 
         
-        n = len(arr)
         
-        @lru_cache(None)
-        def solve(i, j):
-            if i >= j: return 0
-            
-            mini = float('inf')
-            for k in range(i, j):
-                mini = min(
-                    mini,
-                    solve(i, k) + solve(k+1, j) + arr[i] * arr[k+1] * arr[j+1]
+        n = len(arr)
+        cache = [[0 for _ in range(n+2)] for _ in range(n+2)]
+        
+        for i in range(n-1, -1, -1):
+            for j in range(i+1, n-1):
+                mini = float('inf')
+                if i >= j:
+                    continue
+        
+                for k in range(i, j):
+                    mini = min(
+                        mini,
+                        cache[i][k] + cache[k+1][j] + arr[i] * arr[k+1] * arr[j+1]
                     )
+        
+                cache[i][j] = mini
                 
-            return mini
-            
-            
-            
-        return solve(0, n-2)
+        return cache[0][n-2]
 
 
 #{ 
