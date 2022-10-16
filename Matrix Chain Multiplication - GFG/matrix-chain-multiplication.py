@@ -1,30 +1,32 @@
 #User function Template for python3
-from functools import lru_cache
+
 class Solution:
     def matrixMultiplication(self, N, arr):
-        
-
-        
-        
-        n = len(arr)
-        cache = [[0 for _ in range(n+2)] for _ in range(n+2)]
-        
-        for i in range(n-1, -1, -1):
-            for j in range(i+1, n-1):
-                mini = float('inf')
-                if i >= j:
-                    continue
-        
-                for k in range(i, j):
-                    mini = min(
-                        mini,
-                        cache[i][k] + cache[k+1][j] + arr[i] * arr[k+1] * arr[j+1]
-                    )
-        
-                cache[i][j] = mini
                 
-        return cache[0][n-2]
-
+        n = len(arr)
+        
+        cache = [[0] * (n-1) for _ in range(n-1)]
+        
+        for gap in range(n):
+            i, j = 0, gap
+            while j < n - 1:
+                if gap == 0:
+                    cache[i][j] = 0
+                elif gap == 1:
+                    cache[i][j] = arr[i] * arr[j] * arr[j+1]
+                else:
+                    mini = float('inf')
+                    for k in range(i, j):
+                        mini = min(
+                            mini,
+                            cache[i][k] + cache[k+1][j] + arr[i] * arr[k+1] * arr[j+1]
+                        )
+        
+                    cache[i][j] = mini
+        
+                i += 1
+                j += 1
+        return cache[0][-1]
 
 #{ 
  # Driver Code Starts
