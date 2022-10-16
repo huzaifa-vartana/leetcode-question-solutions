@@ -15,14 +15,14 @@ class Solution:
             for k in range(i, j):
                 mini = min(
                     mini,
-                    solve(i, k) + solve(k+1, j) + arr[i-1] * arr[k] * arr[j]
+                    solve(i, k) + solve(k+1, j) + arr[i] * arr[k+1] * arr[j+1]
                     )
                 
             return mini
             
             
             
-        return solve(1, n-1)
+        return solve(0, n-2)
 
 
 #{ 
