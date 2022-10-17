@@ -1,24 +1,27 @@
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
         
-        # cache = [[-1 for _ in range(n+1)] for _ in range(n+1)]
-        cache = {}
+        cuts.append(0)
+        cuts.append(n)
+        cuts.sort()
+        n = len(cuts)
+        cache = [[-1 for _ in range(n+1)] for _ in range(n+1)]
+        
         def solve(i, j):
-            
-            state = (i, j)
-            if state in cache: return cache[state]
+
+            if i > j: return 0
+            if cache[i][j] != -1: return cache[i][j]
             
             mini = float('inf')
-            for cut in cuts:
-                if i < cut < j:
+            for k in range(i, j+1):
 
-                    mini = min(
-                        mini,
-                        j - i + solve(i, cut) + solve(cut, j)
-                    )
-            cache[state] = 0 if mini == float('inf') else mini
-            return cache[state]
+                mini = min(
+                    mini,
+                    cuts[j+1] - cuts[i-1] + solve(i, k-1) + solve(k+1, j)
+                )
+            cache[i][j] = mini
+            return cache[i][j]
 
         
         
-        return solve(0, n)
+        return solve(1, n-2)
