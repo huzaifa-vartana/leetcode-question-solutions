@@ -4,16 +4,17 @@ class Solution:
         @lru_cache(None)
         def solve(i, j):
 
-
             mini = float('inf')
-            cut_poss = False
             for cut in cuts:
                 if i < cut < j:
-                    cut_poss = True
-                    mini = min(solve(i, cut) + solve(cut, j) + j - i, mini)
-            
-            return mini if cut_poss else 0
+
+                    mini = min(
+                        mini,
+                        j - i + solve(i, cut) + solve(cut, j)
+                    )
+
+            return 0 if mini == float('inf') else mini
+
         
         
         return solve(0, n)
-        
