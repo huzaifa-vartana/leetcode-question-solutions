@@ -3,22 +3,17 @@ class Solution:
         
         
         n = len(arr)
-        
-        @lru_cache(None)
-        def solve(idx):
-            
-            if idx >= n: return 0
-            
+        cache = [float('-inf')] * (n+1)
+        cache[n] = 0
+        for idx in range(n-1, -1, -1):
+                        
             maxi = float('-inf')
             for k in range(idx, min(idx+max_length, n)):
                 tmp = max(arr[idx:k+1]) * (k - idx + 1)
                 maxi = max(
                     maxi,
-                    tmp + solve(k+1)
+                    tmp + cache[k+1]
                 )
-            
-            
-            return maxi
-            
-            
-        return solve(0)
+            cache[idx] = maxi
+
+        return cache[0] 
