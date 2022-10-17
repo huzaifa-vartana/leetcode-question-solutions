@@ -1,17 +1,24 @@
 class Solution:
-    def maxSumAfterPartitioning(self, arr: List[int], part: int) -> int:
+    def maxSumAfterPartitioning(self, arr: List[int], max_length: int) -> int:
+        
         
         n = len(arr)
-        cache = [0 for _ in range(n+1)]
-        for idx in range(n-1, -1, -1):
         
-            max_sum = 0
-            itr = min(idx + part, n)
-            for k in range(idx, itr):
-
-                subarray_sum = max(arr[idx:k+1]) * (k - idx + 1)
-                max_sum = max(max_sum, subarray_sum + cache[k+1])
-
-            cache[idx] = max_sum
-        
-        return cache[0]
+        @lru_cache(None)
+        def solve(idx):
+            
+            if idx >= n: return 0
+            
+            maxi = float('-inf')
+            for k in range(idx, min(idx+max_length, n)):
+                tmp = max(arr[idx:k+1]) * (k - idx + 1)
+                maxi = max(
+                    maxi,
+                    tmp + solve(k+1)
+                )
+            
+            
+            return maxi
+            
+            
+        return solve(0)
