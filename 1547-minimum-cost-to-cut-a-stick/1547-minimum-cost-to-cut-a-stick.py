@@ -5,21 +5,18 @@ class Solution:
         cuts.append(n)
         cuts.sort()
         c = len(cuts)
-        cache = [[-1 for _ in range(c+1)] for _ in range(c+1)]
-        
-        def solve(i, j):
+        cache = [[0 for _ in range(c+1)] for _ in range(c+1)]
+        for i in range(c, 0, -1):
+            for j in range(i, c-1):
             
-            if i > j: return 0
-            if cache[i][j] != -1: return cache[i][j]
-            
-            mini = float('inf')
-            for cut in range(i, j+1):
-                mini = min(
-                    mini,
-                    solve(i, cut-1) + solve(cut+1, j) + cuts[j+1] - cuts[i-1]
-                )
-            cache[i][j] = mini
-            return cache[i][j] 
+                mini = float('inf')
+                for k in range(i, j+1):
+                    mini = min(
+                        mini,
+                        cuts[j+1] - cuts[i-1] + cache[i][k-1] + cache[k+1][j]
+                    )
+                cache[i][j] = mini
+
             
             
-        return solve(1, c-2)
+        return cache[1][c-2]
