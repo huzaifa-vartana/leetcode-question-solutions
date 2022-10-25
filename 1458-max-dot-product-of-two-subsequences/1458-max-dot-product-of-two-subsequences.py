@@ -3,17 +3,20 @@ class Solution:
         n1 = len(nums1)
         n2 = len(nums2)
 
-        @lru_cache(None)
+        cache = [[[-1 for _ in range(2)] for _ in range(n2+1)] for _ in range(n1+1)]
         def solve(i, j, flag):
             if i == n1 or j == n2:
-                return float('-inf') if not flag else 0
+                cache[i][j][flag] = float('-inf') if not flag else 0
+                return cache[i][j][flag]
+            if cache[i][j][flag] != -1: return cache[i][j][flag]
 
             a = solve(i+1, j, flag)
             b = solve(i, j+1, flag)
             c = nums1[i] * nums2[j] + solve(i+1, j+1, True)
             d = solve(i+1, j+1, flag)
 
-            return max(a, b, c, d)
+            cache[i][j][flag] = max(a, b, c, d)
+            return cache[i][j][flag]
         
         
         
