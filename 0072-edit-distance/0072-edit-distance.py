@@ -1,24 +1,25 @@
 class Solution:
-    def minDistance(self, w1: str, w2: str) -> int:
+    def minDistance(self, s: str, t: str) -> int:
         
-        m, n = len(w1), len(w2)
+        m, n = len(s), len(t)
         
-        @lru_cache(None)
-        def solve(i, j):
+        cache = [[0 for _ in range(n+1)] for _ in range(m+1)]
+        for j in range(n+1):
+            cache[m][j] = n - j
+        for i in range(m+1):
+            cache[i][n] = m - i
+                    
+        # n, m = len(s), len(t)    
+        # for col in range(m+1):
+        #     cache[n][col] = m - col
+        # for row in range(n+1):
+        #     cache[row][m] = n - row
             
-            if i >= m:
-                return n - j
-            if j >= n:
-                return m - i
-            if w1[i] == w2[j]: return solve(i+1, j+1)
-            
-            # insert
-            ins = 1 + solve(i, j+1)
-            # delete
-            d = 1 + solve(i+1, j)
-            # replace
-            r = 1 + solve(i+1, j+1)
-            
-            return min(ins, d, r)
         
-        return solve(0, 0)
+        for i in range(m-1, -1, -1):
+            for j in range(n-1, -1, -1):
+                
+                if s[i] != t[j]: cache[i][j] = 1 + min(cache[i+1][j+1], cache[i][j+1], cache[i+1][j])
+                else: cache[i][j] = cache[i+1][j+1]
+                    
+        return cache[0][0]
