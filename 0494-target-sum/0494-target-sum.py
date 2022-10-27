@@ -9,18 +9,21 @@ class Solution:
         if (tot-t) < 0 or (tot-t) % 2 != 0: 
             return 0
         
-        cache = [[-1 for _ in range(d+1)] for _ in range(n+1)]
-        def solve(idx, t):
-            if idx >= n: return 1 if t == d else 0
-            if t > d: return 0
-            if cache[idx][t] != -1: return cache[idx][t]
-            
-            cache[idx][t] = solve(idx+1, t + nums[idx]) + solve(idx+1, t)
-            return cache[idx][t] 
+        cache = [[0 for _ in range(d+1)] for _ in range(n+1)]
+        cache[n][d] = 1
+        for idx in range(n-1, -1, -1):
+            for t in range(d, -1, -1):
+                
+                add =  0
+                tmp = t + nums[idx]
+                if tmp in range(d+1):
+                    add = cache[idx+1][tmp]
+                cache[idx][t] = cache[idx+1][t] + add
+
         
         
 
-        return solve(0, 0)
+        return cache[0][0]
             
         
         
