@@ -1,22 +1,25 @@
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
         
+        
+        
         cuts.append(0)
         cuts.append(n)
-        cuts.sort()
         c = len(cuts)
-        cache = [[0 for _ in range(c+1)] for _ in range(c+1)]
-        for i in range(c, 0, -1):
-            for j in range(i, c-1):
+        cuts.sort()
+        
+        @lru_cache(None)
+        def solve(i, j):
             
-                mini = float('inf')
-                for k in range(i, j+1):
-                    mini = min(
-                        mini,
-                        cuts[j+1] - cuts[i-1] + cache[i][k-1] + cache[k+1][j]
-                    )
-                cache[i][j] = mini
-
+            if i > j: return 0
+            mini = float('inf')
+            for k in range(i, j+1):
+                mini = min(
+                    mini,
+                    solve(i, k-1) + solve(k+1, j) + cuts[j+1] - cuts[i-1]
+                )
+                
+            return mini
             
             
-        return cache[1][c-2]
+        return solve(1, c-2)
