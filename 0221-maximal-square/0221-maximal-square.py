@@ -3,10 +3,6 @@ class Solution:
         
         m, n = len(grid), len(grid[0])
         cache = [[0 for _ in range(n+1)] for _ in range(m+1)]
-        # for j in range(n):
-        #     cache[m-1][j] = int(grid[m-1][j])
-        # for i in range(m):
-        #     cache[i][n-1] = int(grid[i][n-1])
         def valid(x, y): return x >= 0 and x < m and y >= 0 and y < n
         
         maxi = 0
