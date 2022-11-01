@@ -30,21 +30,21 @@ class GFG{
 
 class Solution{
     static int maxSquare(int n, int m, int matrix[][]){
-        //initializing sentinal varibles
-        int maxSqr=0 , rows=matrix.length , column=matrix[0].length;
-        //base case
-        if(rows==0) return 0;
-        //dp matrix that we will be making
-        int[][] dp=new int[rows+1][column+1];
-		
-        //Iterate over the matrix
-        for(int i=1;i<=rows;i++)
-            for(int j=1;j<=column;j++) {
-                ///we found the 1 in our binary matrix 
-                if(matrix[i-1][j-1]==0) continue;
-                dp[i][j]=Math.min(dp[i-1][j],Math.min(dp[i-1][j-1],dp[i][j-1])) + 1;
-                maxSqr=Math.max(maxSqr,dp[i][j]);
+        int rows = matrix.length, cols = rows > 0 ? matrix[0].length : 0;
+        int[] dp = new int[cols + 1];
+        int maxsqlen = 0, prev = 0;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= cols; j++) {
+                int temp = dp[j];
+                if (matrix[i - 1][j - 1] == 1) {
+                    dp[j] = Math.min(Math.min(dp[j - 1], prev), dp[j]) + 1;
+                    maxsqlen = Math.max(maxsqlen, dp[j]);
+                } else {
+                    dp[j] = 0;
+                }
+                prev = temp;
             }
-        return maxSqr;
+        }
+        return maxsqlen;
     }
 }
