@@ -16,11 +16,11 @@ class Solution:
         tot = len(trs)
 
 
-        @lru_cache(None)
+        cache =  [[[-1 for _ in range(n+1)] for _ in range(m+1)] for _ in range(tot+1)]
         def solve(idx, zeros_count, ones_count):
 
-            if idx >= tot:
-                return float('-inf') if zeros_count > m and ones_count > n else 0
+            if idx >= tot: return float('-inf') if zeros_count > m and ones_count > n else 0
+            if cache[idx][zeros_count][ones_count] != -1: return cache[idx][zeros_count][ones_count]
 
             # include in subset
             inc = 0
@@ -31,7 +31,8 @@ class Solution:
             # not include
             not_inc = solve(idx+1, zeros_count, ones_count)
 
-            return max(inc, not_inc)
+            cache[idx][zeros_count][ones_count] = max(inc, not_inc)
+            return cache[idx][zeros_count][ones_count] 
 
 
         return solve(0, 0, 0)
