@@ -6,8 +6,9 @@ class Solution:
         nums2 = [-1] + nums2
         n = len(nums1)
         
-        cache = [[0 for _ in range(3)] for _ in range(n+1)]
+        prev = [0 for _ in range(3)]
         for i in range(n-1, 0, -1):
+            curr = [0 for _ in range(3)]
             for swapped in [True, False]:
             
                 prev_number1 = nums1[i-1]
@@ -16,12 +17,13 @@ class Solution:
                 if swapped: prev_number1, prev_number2 = prev_number2, prev_number1
 
                 mini = float('inf')
-                if nums1[i] > prev_number1 and nums2[i] > prev_number2: mini = min(mini, cache[i+1][False])
+                if nums1[i] > prev_number1 and nums2[i] > prev_number2: mini = min(mini, prev[False])
 
 
-                if nums1[i] > prev_number2 and nums2[i] > prev_number1: mini = min(mini, 1 + cache[i+1][True])
+                if nums1[i] > prev_number2 and nums2[i] > prev_number1: mini = min(mini, 1 + prev[True])
 
-                cache[i][swapped] = mini
+                curr[swapped] = mini
+            prev = curr
 
         
-        return cache[1][False]
+        return prev[False]
