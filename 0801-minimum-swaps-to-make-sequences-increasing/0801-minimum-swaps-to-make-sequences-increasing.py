@@ -18,8 +18,6 @@ class Solution:
 
                 mini = float('inf')
                 if nums1[i] > prev_number1 and nums2[i] > prev_number2: mini = min(mini, prev[False])
-
-
                 if nums1[i] > prev_number2 and nums2[i] > prev_number1: mini = min(mini, 1 + prev[True])
 
                 curr[swapped] = mini
