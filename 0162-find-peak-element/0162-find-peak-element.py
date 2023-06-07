@@ -18,7 +18,7 @@ class Solution:
                 return mid
 
             # divide search space
-            if (mid + 1) in range(0, n) and nums[mid] < nums[mid+1]:
+            if (mid + 1) in range(0, n) and nums[mid] <= nums[mid+1]:
                 low = mid + 1
             else:
                 high = mid - 1
