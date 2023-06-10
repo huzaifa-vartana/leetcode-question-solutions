@@ -17,22 +17,21 @@ class Solution:
                 seen.add(cr)
 
 
-        dis = 0
-        res = []
+        steps, courses_studied = 0, 0
         while q:
             for _ in range(len(q)):
                 node = q.popleft()
                 
-                res.append(node)
+                courses_studied += 1
                 for nei in adj[node]:
                     in_d[nei] -= 1
                     if nei not in seen and in_d[nei] == 0:
                         q.append(nei)
                         seen.add(nei)
-            dis += 1
+            steps += 1
 
         # print(res, dis)
-        return dis if len(res) == n else -1
+        return steps if courses_studied == n else -1
 
 
         
