@@ -5,14 +5,14 @@ class Solution:
 
 
         def solve(num):
-            if num == 1:
-                return True
-            elif num < 1:
-                return False
-            else:
-                return solve(num/3)
+            if num == 1: return True
+            if num < 1: return False
+
+            if solve(num/3): return True 
 
             return False
+
+
 
 
         return solve(n)
