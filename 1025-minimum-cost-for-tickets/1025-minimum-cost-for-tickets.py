@@ -8,7 +8,6 @@ class Solution:
             while start <= end:
                 mid = (start + end) // 2
                 if days[mid] == days[curr] + day:
-                    # res = mid
                     start = mid + 1
                 elif days[mid] > days[curr] + day:
                     res = mid
