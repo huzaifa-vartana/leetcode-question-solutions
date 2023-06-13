@@ -1,26 +1,33 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        
-        
-        def is_pal(left, right):
-            
-            
-            while left <= right:
-                if s[left] != s[right]: return False
-                left += 1
-                right -= 1
-            
+
+
+
+        def pal(l, r):
+            while l <= r:
+                if s[l] != s[r]: return False
+                l += 1
+                r -= 1
             return True
-        
-        n, res = len(s), []
-        
-        def solve(idx, pal_strs):
-            if idx >= n:
-                res.append(pal_strs)
-                
-            for k in range(idx, n):
-                tmp = s[idx:k+1]
-                if is_pal(idx, k): solve(k+1, pal_strs + [tmp])
-            
+
+
+        res = []
+        def solve(idx, curr):
+
+            if idx >= len(s):
+                res.append(curr)
+                return
+
+            for char_idx in range(idx, len(s)):
+                substr = s[idx:char_idx+1]
+                if pal(idx, char_idx):
+                    solve(char_idx+1, curr + [substr])
+
+
+
+
+
+            return -1
+
         solve(0, [])
         return res
