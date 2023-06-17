@@ -7,22 +7,24 @@ class BrowserHistory:
         self.pos = 0 
 
     def visit(self, url: str) -> None:
+
         while len(self.history) - 1 > self.pos:
             self.history.pop()
         self.history.append(url)
         self.pos +=1 
 
 
+
     def back(self, steps: int) -> str:
-        while steps > 0 and self.pos > 0:
-            steps -= 1
+        steps_can_go_back = min(self.pos, steps)
+        for _ in range(self.pos, self.pos - steps_can_go_back, -1):
             self.pos -= 1
 
         return self.history[self.pos]
 
     def forward(self, steps: int) -> str:
-        while self.pos < len(self.history) - 1 and steps > 0:
-            steps -= 1
+        steps_can_go_forw = min(len(self.history) - self.pos - 1, steps)
+        for _ in range(self.pos, self.pos + steps_can_go_forw):
             self.pos += 1
 
         return self.history[self.pos]
