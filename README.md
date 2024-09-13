@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0290-word-pattern](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0290-word-pattern) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Array
 |  |
 | ------- |
