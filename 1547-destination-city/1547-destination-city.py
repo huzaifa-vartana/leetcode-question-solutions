@@ -8,6 +8,9 @@ class Solution:
         for start, end in paths:
             dests[start] = end
 
-        for start, end in paths:
-            if end not in dests:
-                return end
+        def recursive_helper(start):
+            if start not in dests:
+                return start
+            return recursive_helper(dests[start])
+
+        return recursive_helper(paths[0][0])
