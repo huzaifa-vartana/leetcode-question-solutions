@@ -4,21 +4,20 @@ from typing import List
 class Solution:
     def maxProductDifference(self, nums: List[int]) -> int:
 
-        max_pair = []
-        min_pair = []
+        max1, max2 = float('-inf'), float('-inf')
+        min1, min2 = float('inf'), float('inf')
 
         for num in nums:
-            if len(max_pair) < 2:
-                max_pair.append(num)
-                min_pair.append(num)
-                max_pair.sort()
-                min_pair.sort()
-            else:
-                if num > max_pair[0]:
-                    max_pair[0] = num
-                    max_pair.sort()
-                if num < min_pair[1]:
-                    min_pair[1] = num
-                    min_pair.sort()
+            if num > max1:
+                max2 = max1
+                max1 = num
+            elif num > max2:
+                max2 = num
 
-        return (max_pair[1] * max_pair[0]) - (min_pair[0] * min_pair[1])
+            if num < min1:
+                min2 = min1
+                min1 = num
+            elif num < min2:
+                min2 = num
+
+        return max1 * max2 - min1 * min2
