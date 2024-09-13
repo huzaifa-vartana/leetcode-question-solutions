@@ -2,18 +2,25 @@ class Solution:
     def maxScore(self, s: str) -> int:
 
         max_score = 0
-        zeros = 0
+
         n = len(s)
-        for idx1 in range(n):
-            if idx1 == n - 1: continue
+        ones = [0] * (n+1)
+        zeros = [0] * (n+1)
+        for idx in range(n):
+            digit = s[idx]
 
-            ones = 0
-            if s[idx1] == "0":
-                zeros += 1
+            if digit == '1':
+                ones[idx] = ones[idx-1] + 1
+            else:
+                ones[idx] = ones[idx-1]
 
-            for idx2 in range(idx1+1, n):
-                if s[idx2] == "1":
-                    ones += 1
-            max_score = max(max_score, zeros + ones)
+            if digit == '0':
+                zeros[idx] = zeros[idx-1] + 1
+            else:
+                zeros[idx] = zeros[idx-1]
+
+        for idx in range(1, n):
+            score = zeros[idx-1] + ones[n-1] - ones[idx-1]
+            max_score = max(max_score, score)
 
         return max_score
