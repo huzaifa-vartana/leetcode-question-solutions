@@ -17,5 +17,5 @@ class Solution:
             if curr_ptr in visited:
                 return True
 
-            visited.add(tuple(curr_ptr))
+            visited.add(curr_ptr)
         return False
