@@ -18,8 +18,6 @@ class Solution:
                 zeros[idx] = zeros[idx-1] + 1
             else:
                 zeros[idx] = zeros[idx-1]
-        print(f"zeros: {zeros}")
-        print(f"ones: {ones}")
 
         for idx1 in range(n-1):
             max_score = max(max_score, zeros[idx1] + ones[-1] - ones[idx1])
