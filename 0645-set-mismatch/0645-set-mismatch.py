@@ -3,14 +3,20 @@ from typing import List
 
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
+
         n = len(nums)
-        total_sum = sum(range(1, n+1))
+        rep = None
+        mis = None
+        for idx in range(1, n+1):
+            new_idx = abs(nums[idx-1])
+            if nums[new_idx-1] > 0:
+                nums[new_idx-1] = -nums[new_idx-1]
+            else:
+                rep = new_idx
 
-        # missing number
-        missing_number = total_sum - sum(set(nums))
+        for idx in range(n):
+            if nums[idx] > 0:
+                mis = idx+1
+                break
 
-        # duplicate number
-        duplicate_number = sum(nums) - sum(set(nums))
-
-        return [duplicate_number, missing_number]
-
+        return [rep, mis]
