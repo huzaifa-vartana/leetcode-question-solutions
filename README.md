@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 ## Prefix Sum
 |  |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 ## Stack
 |  |
 | ------- |
