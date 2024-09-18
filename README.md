@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
+| [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Bit Manipulation
 |  |
