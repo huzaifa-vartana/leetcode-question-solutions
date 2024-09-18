@@ -4,17 +4,14 @@ from typing import List
 class Solution:
     def specialArray(self, nums: List[int]) -> int:
         n = len(nums)
-        count = [0] * (1002)
+        count = [0] * (n + 1)
 
         for num in nums:
-            count[num] += 1
+            count[min(num, n)] += 1
 
-        # saving the count of numbers greater than or equal to i
-        for i in range(1000, -1, -1):
-            count[i] += count[i + 1]
-
-        for i in range(1000, -1, -1):
-            if i == count[i]:
+        for i in range(n, 0, -1):
+            count[i - 1] += count[i]
+            if count[i] == i:
                 return i
 
         return -1
