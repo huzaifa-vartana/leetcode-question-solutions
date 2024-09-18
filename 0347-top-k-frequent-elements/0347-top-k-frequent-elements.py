@@ -1,19 +1,17 @@
-from collections import Counter
-import heapq
-from typing import List
-
-
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         counter = Counter(nums)
-        heap = []
+        buckets = [[] for _ in range(len(nums) + 1)]
 
+        # bucket sort implementation
         for num, freq in counter.items():
-            heapq.heappush(heap, (-freq, num))
+            buckets[freq].append(num)
 
-        ans = []
-        while k > 0:
-            ans.append(heapq.heappop(heap)[1])
-            k -= 1
+        res = []
 
-        return ans
+        for bucket in reversed(buckets):
+            if len(res) >= k:
+                break
+            res.extend(bucket)
+
+        return res
