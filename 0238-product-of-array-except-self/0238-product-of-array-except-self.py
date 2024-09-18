@@ -9,10 +9,8 @@ class Solution:
             output[idx] *= prefix
             prefix *= nums[idx]
 
-
-        print(output)
         for idx in range(len(nums) - 1, -1, -1):
             output[idx] *= suffix
             suffix *= nums[idx]
-        print(output)
+
         return output
