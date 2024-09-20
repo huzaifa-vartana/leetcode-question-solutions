@@ -1,45 +1,18 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        # validate rows
-        for row in range(9):
-            rows_set = set()
-            for col in range(9):
-                if board[row][col] == ".":
-                    continue
-                if board[row][col] in rows_set:
-                    print("rows validation")
-                    print(f"row: {row}, col: {col}")
-                    return False
-                rows_set.add(board[row][col])
 
-        # validate columns
-        for col in range(9):
-            cols_set = set()
-            for row in range(9):
-                if board[row][col] == ".":
-                    continue
+        # Check each 3x3 grid
+        squares = collections.defaultdict(set)
+        row = collections.defaultdict(set)
+        col = collections.defaultdict(set)
 
-                if board[row][col] in cols_set:
-                    print("cols validation")
-                    print(f"row: {row}, col: {col}")
-                    return False
-
-                cols_set.add(board[row][col])
-
-        # validate squares
-        for row in range(0, 9, 3):
-            for col in range(0, 9, 3):
-                square_set = set()
-                for i in range(3):
-                    for j in range(3):
-                        if board[row+i][col+j] == ".":
-                            continue
-
-                        if board[row+i][col+j] in square_set:
-                            print("squares validation")
-                            print(f"row: {row+i}, col: {col+j}")
-                            return False
-
-                        square_set.add(board[row+i][col+j])
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] != '.':
+                    if board[i][j] in row[i] or board[i][j] in col[j] or board[i][j] in squares[(i//3, j//3)]:
+                        return False
+                    row[i].add(board[i][j])
+                    col[j].add(board[i][j])
+                    squares[(i//3, j//3)].add(board[i][j])
 
         return True
