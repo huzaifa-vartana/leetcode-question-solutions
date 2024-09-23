@@ -1,22 +1,22 @@
-from typing import List
-
-
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
 
-        n = len(nums)
-        rep = None
-        mis = None
-        for idx in range(1, n+1):
-            new_idx = abs(nums[idx-1])
-            if nums[new_idx-1] > 0:
-                nums[new_idx-1] = -nums[new_idx-1]
+        N = len(nums)
+        res = []
+
+        for idx in range(1, N+1):
+            new_idx = abs(nums[idx - 1])
+            new_idx = new_idx - 1
+            # nums[new_idx] = -nums[new_idx]
+
+            if nums[new_idx] < 0:
+                res.append(new_idx+1)
             else:
-                rep = new_idx
+                nums[new_idx] = -nums[new_idx]
 
-        for idx in range(n):
+        for idx in range(N):
             if nums[idx] > 0:
-                mis = idx+1
-                break
+                res.append(idx+1)
 
-        return [rep, mis]
+        return res
+
