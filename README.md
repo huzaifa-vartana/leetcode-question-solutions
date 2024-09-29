@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## String
 |  |
 | ------- |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Array
 |  |
@@ -98,10 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Two Pointers
 |  |
 | ------- |
