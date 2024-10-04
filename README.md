@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Linked List
@@ -80,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Counting
 |  |
 | ------- |
