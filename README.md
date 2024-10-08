@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
+| [0189-rotate-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0189-rotate-array) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Counting
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
+| [0189-rotate-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
