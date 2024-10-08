@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0554-brick-wall](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0344-reverse-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
@@ -197,5 +200,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
