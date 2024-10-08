@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 ## Design
 |  |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 ## Counting
@@ -179,4 +181,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
