@@ -1,28 +1,21 @@
 class Solution:
-    def validPalindrome(self, s: str) -> bool:        
-        def isPalindrome(i,s):
-            start, end = 0 , len(s) - 1
-            while start < end:
-                if start == i:
-                    start+=1
-                elif end == i:
-                    end -= 1
-                
-                if s[start]!=s[end]:
-                    return False
-                start +=1 
-                end -=1
-            return True     
-        
-        
-        for i,j in enumerate(s):
-            # print(s[:i]+s[i+1:])
-            if isPalindrome(i,s):
-                return True
-        return False
-        
-        # print(isPalindrome("aabaa"))
-        
-        
+    def validPalindrome(self, s: str) -> bool:
+        def is_palindrome(l, r):
+            while l < r:
+                if s[l] != s[r]: return False
+                l +=1 
+                r -=1
+            return True
 
+        N = len(s)
+        if is_palindrome(0, N-1): return True 
+        start, end = 0, N - 1
+        while start < end:
+            if s[start] != s[end]: return is_palindrome(start, end-1) or is_palindrome(start+1, end)
+            start += 1
+            end -= 1
+        return False
+
+
+    
         
