@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
+| [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 ## Linked List
 |  |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
+| [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -183,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Rolling Hash
 |  |
 | ------- |
