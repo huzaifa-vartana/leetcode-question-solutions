@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
+| [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Array
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
+| [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
 | ------- |
