@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [0665-non-decreasing-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0665-non-decreasing-array) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
+| [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
+| [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -144,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
+| [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
@@ -205,4 +208,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
+| [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 <!---LeetCode Topics End-->
