@@ -7,7 +7,8 @@ class Solution:
         def helper(idx, sum, res):
             if idx >= len(candidates):
                 if sum == target: output.append(res)
-                return 
+                return
+            if sum > target: return
 
             helper(idx+1, sum + candidates[idx], res + [candidates[idx]])
             while idx+1 < len(candidates) and candidates[idx] == candidates[idx+1]:
