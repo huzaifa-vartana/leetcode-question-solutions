@@ -1,18 +1,19 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 
-        res = []
-        def solve(idx):
+        output = []
+
+        def helper(idx):
+
             if idx >= len(nums):
-                res.append(nums.copy())
+                output.append(nums.copy())
                 return
             
             for i in range(idx, len(nums)):
                 nums[i], nums[idx] = nums[idx], nums[i]
-                solve(idx+1)
+                helper(idx+1)
                 nums[i], nums[idx] = nums[idx], nums[i]
 
+        helper(0)
 
-
-        solve(0)
-        return res
+        return output
