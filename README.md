@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0131-palindrome-partitioning](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0131-palindrome-partitioning) |
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0205-isomorphic-strings](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0290-word-pattern) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
+| [0131-palindrome-partitioning](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0131-palindrome-partitioning) |
 ## Sorting
 |  |
 | ------- |
@@ -218,4 +220,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0046-permutations) |
+| [0131-palindrome-partitioning](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
