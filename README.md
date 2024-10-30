@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0036-valid-sudoku) |
+| [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 ## Sliding Window
 |  |
 | ------- |
@@ -221,4 +223,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0046-permutations) |
 | [0131-palindrome-partitioning](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0131-palindrome-partitioning) |
+## Depth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
