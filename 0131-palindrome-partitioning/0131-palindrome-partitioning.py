@@ -1,33 +1,27 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
+        output = []
 
-
-
-        def pal(l, r):
-            while l <= r:
+        def palindrome(l, r):
+            while l < r:
                 if s[l] != s[r]: return False
                 l += 1
                 r -= 1
             return True
 
-
-        res = []
-        def solve(idx, curr):
-
+        def paritition_helper(idx, res):
             if idx >= len(s):
-                res.append(curr)
+                output.append(res.copy())
                 return
 
-            for char_idx in range(idx, len(s)):
-                substr = s[idx:char_idx+1]
-                if pal(idx, char_idx):
-                    solve(char_idx+1, curr + [substr])
+            for r in range(idx, len(s)):
+                if palindrome(idx, r):
+                    res.append(s[idx:r+1])
+                    paritition_helper(r+1, res)
+                    res.pop()
 
 
 
-
-
-            return -1
-
-        solve(0, [])
-        return res
+        paritition_helper(0, [])
+        return output
+        
