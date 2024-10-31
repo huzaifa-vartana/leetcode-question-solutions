@@ -1,26 +1,11 @@
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
 
-        output = []
-        def helper(idx, res):
+        def helper(idx, xor):
             if idx >= len(nums):
-                output.append(res.copy())
-                return 0
+                return xor
 
-            res.append(nums[idx])
-            helper(idx+1, res)
-            res.pop()
-            helper(idx+1, res)
+            return helper(idx+1, xor ^ nums[idx]) + helper(idx+1, xor)
         
-        helper(0, [])
-        
-        total = 0
-        for num  in output:
-            xor = 0
-            for n in num: 
-                xor ^= n
-
-            total += xor
-
-        return total
+        return helper(0, 0)
         
