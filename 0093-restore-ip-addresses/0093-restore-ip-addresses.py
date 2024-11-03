@@ -1,17 +1,24 @@
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
+        
+        N = len(s)
+        output = []
+        def helper(idx, res):
 
-        res = []
-        def solve(idx, curr):
-            if len(curr) == 4:
-                if idx >= len(s):
-                    res.append(".".join(curr))
+            if idx >= N:
+                if len(res) == 4:
+                    output.append(".".join(res))
                 return
 
-            for num_idx in range(idx, len(s)):
-                num = s[idx:num_idx+1]
-                if (len(num) > 1 and num[0]) != '0' and int(num) in range(256):
-                    solve(num_idx+1, curr + [num])
+            for i in range(idx, N):
+                digits = s[idx:i+1]
+                if len(digits) > 1 and digits[0] == "0":
+                    continue
 
-        solve(0, [])
-        return res
+                if int(digits) in range(256):
+                    helper(i+1, res + [digits])
+
+            return
+
+        helper(0, [])
+        return output
