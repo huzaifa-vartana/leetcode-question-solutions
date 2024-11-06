@@ -5,19 +5,14 @@ class Solution:
             if idx >= len(nums):
                 return 0 if not res else 1
             
-            pos = True
-            for num in res:
-                if abs(num - nums[idx]) == k:
-                    pos = False
-                    break
             pick = 0
-            if pos:
-                res.append(nums[idx])
+            if not res[nums[idx] - k] and not res[nums[idx] + k]:
+                res[nums[idx]] += 1
                 pick += helper(idx+1, res)
-                res.pop()
+                res[nums[idx]] -= 1
 
             not_pick = helper(idx+1, res)
             return pick + not_pick
 
-        return helper(0, [])
+        return helper(0, defaultdict(int)) - 1
         
