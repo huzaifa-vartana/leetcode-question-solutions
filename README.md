@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [0665-non-decreasing-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0665-non-decreasing-array) |
+| [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Sliding Window
 |  |
 | ------- |
@@ -263,15 +265,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
+| [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Combinatorics
 |  |
 | ------- |
