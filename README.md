@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0205-isomorphic-strings) |
 | [0290-word-pattern](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0344-reverse-string) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
@@ -266,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
@@ -273,12 +276,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 ## Combinatorics
 |  |
@@ -301,5 +306,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [1039-find-the-town-judge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1039-find-the-town-judge) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
