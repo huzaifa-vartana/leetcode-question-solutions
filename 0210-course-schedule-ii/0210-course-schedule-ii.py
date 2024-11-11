@@ -2,7 +2,7 @@ class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
 
         adj = defaultdict(list)
-        for a, b in prerequisites: adj[a].append(b)
+        for a, b in prerequisites: adj[b].append(a)
 
         res = []
         visited = set()
@@ -14,11 +14,11 @@ class Solution:
                 if neighbor not in visited and toposort(neighbor, curr_path_visited): return True
                 elif neighbor in curr_path_visited: return True
 
-            res.append(node)
             curr_path_visited.remove(node)
+            res.append(node)
             return False
 
         for v in range(numCourses):
             if v not in visited and toposort(v, set()): return []
 
-        return res
+        return res[::-1]
