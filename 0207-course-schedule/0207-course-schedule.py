@@ -1,31 +1,24 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
-        # prerequisites[i] = [a, b]
-        # b depends on a
-        
-
         adj = defaultdict(list)
-        for course1, course2 in prerequisites:
-            adj[course2].append(course1)
+        for c1, c2 in prerequisites: adj[c1].append(c2)
 
-        # check cycle not present
-        # cal toposort
-
-        seen, curr_seen = set(), set()
-        def dfs(node):
+        def toposort(node, seen, curr_path):
             seen.add(node)
-            curr_seen.add(node)
+            curr_path.add(node)
 
-            for nei in adj[node]:
-                if nei not in seen and dfs(nei): return True
-                elif nei in curr_seen: return True
+            for neighbor in adj[node]:
+                if neighbor not in seen and toposort(neighbor, seen, curr_path): 
+                    return True
+                elif neighbor in curr_path: 
+                    return True
 
-            curr_seen.remove(node)
+            curr_path.remove(node)
             return False
 
         for course in range(numCourses):
-            if course not in seen and dfs(course): return False
+            if toposort(course, set(), set()): return False
 
         return True
 
