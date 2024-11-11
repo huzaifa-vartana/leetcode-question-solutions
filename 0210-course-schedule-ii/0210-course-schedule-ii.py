@@ -2,23 +2,21 @@ class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
 
         adj = defaultdict(list)
-        for a, b in prerequisites: adj[b].append(a)
+        in_degree = [0] * numCourses
+        for a, b in prerequisites:
+            in_degree[a] += 1
+            adj[b].append(a)
 
-        res = []
-        visited = set()
-        def toposort(node, curr_path_visited):
-            visited.add(node)
-            curr_path_visited.add(node)
+        res, q = [], []
+        for c in range(numCourses):
+            if in_degree[c] == 0: q.append(c)
 
-            for neighbor in adj[node]:
-                if neighbor not in visited and toposort(neighbor, curr_path_visited): return True
-                elif neighbor in curr_path_visited: return True
-
-            curr_path_visited.remove(node)
+        while q:
+            node = q.pop(0)
             res.append(node)
-            return False
+            for neighbor in adj[node]:
+                in_degree[neighbor] -=1
+                if in_degree[neighbor] == 0: q.append(neighbor)
 
-        for v in range(numCourses):
-            if v not in visited and toposort(v, set()): return []
 
-        return res[::-1]
+        return res if len(res) == numCourses else []
