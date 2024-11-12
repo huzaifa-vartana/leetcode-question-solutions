@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
 | [0990-verifying-an-alien-dictionary](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0990-verifying-an-alien-dictionary) |
+| [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1039-find-the-town-judge) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
 ## Sliding Window
 |  |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
+| [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
 ## Union Find
 |  |
