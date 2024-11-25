@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
+| [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [0990-verifying-an-alien-dictionary](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1039-find-the-town-judge) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
+| [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0990-verifying-an-alien-dictionary](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0665-non-decreasing-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0665-non-decreasing-array) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
+| [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
@@ -300,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
+| [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0945-snakes-and-ladders](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0945-snakes-and-ladders) |
 | [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
