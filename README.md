@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
 | [0140-word-break-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0058-length-of-last-word) |
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0093-restore-ip-addresses) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0242-valid-anagram) |
