@@ -1,24 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-        # # n * (xlgx)
-        # for idx, word in enumerate(strs):
-        #     strs[idx] = ''.join(sorted(word))
-
-        # # nlgn
-        # strs.sort()
-        # print(strs)
-
         hash = defaultdict(list)
         for idx, word in enumerate(strs):
-            d = Counter(word)
-            ctr = dict(sorted(d.items()))
-            hash[str(ctr)].append(idx)   
+            count = [0] * 26
+            for char in word:
+                count[ord(char) - ord('a')] += 1
+            
+            hash[tuple(count)].append(word)   
 
-        res = []
-        for key, items in hash.items():
-            tmp = []
-            for item in items:
-                tmp.append(strs[item])
-            res.append(tmp)
-        return res
+
+        return list(hash.values())
