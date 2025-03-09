@@ -1,58 +1,57 @@
 class Node:
-    def __init__(self, val=0, next=None):
+    def __init__(self, key = "X", val = "X", next = None):
+        self.key = key
         self.val = val
         self.next = next
-
-
-class LinkedList:
-    def __init__(self):
-        self.head = Node()
-
-    def append(self, val):
-        new_node = Node(val)
-        current = self.head
-        while current.next:
-            current = current.next
-        current.next = new_node
-
-    def display(self):
-        current = self.head
-        while current.next:
-            current = current.next
-            print(current.val, end=' ')
-        print()
-
 
 class MyHashMap:
 
     def __init__(self):
-        self.map = [LinkedList() for _ in range(1000)]
+        self.map = [Node() for _ in range(1000)]
+        
 
     def put(self, key: int, value: int) -> None:
-        index = key % 1000
-        current = self.map[index].head
-        while current.next:
-            current = current.next
-            if current.val[0] == key:
-                current.val[1] = value
-                return
-        self.map[index].append([key, value])
+        idx = key % 1000
+        head = self.map[idx]
+
+        while head:
+            if head.key == key:
+                head.val = value
+                return None
+            if not head.next:
+                break
+            head = head.next
+
+        head.next = Node(key, value)
+
+        return None
+
 
     def get(self, key: int) -> int:
-        index = key % 1000
-        current = self.map[index].head
-        while current.next:
-            current = current.next
-            if current.val[0] == key:
-                return current.val[1]
+        idx = key % 1000
+        head = self.map[idx]
+        while head:
+            if head.key == key: return head.val
+            head = head.next
+
         return -1
+        
 
     def remove(self, key: int) -> None:
-        index = key % 1000
-        current = self.map[index].head
-        while current.next:
-            prev = current
-            current = current.next
-            if current.val[0] == key:
-                prev.next = current.next
-                return
+        idx = key % 1000
+        head = self.map[idx]
+
+        while head:
+            if head and head.next and head.next.key == key:
+                head.next = head.next.next
+            head = head.next
+
+        return None
+        
+
+
+# Your MyHashMap object will be instantiated and called as such:
+# obj = MyHashMap()
+# obj.put(key,value)
+# param_2 = obj.get(key)
+# obj.remove(key)
