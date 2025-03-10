@@ -1,16 +1,12 @@
-from typing import List
-
-
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:
+        paths_dict = {}
+        for p1, p2 in paths:
+            paths_dict[p1] = paths_dict.get(p1, 0) + 1
+            paths_dict[p2] = paths_dict.get(p2, 0)
 
-        dests = {}
-        for start, end in paths:
-            dests[start] = end
+        for node, edges in paths_dict.items():
+            if edges == 0: return node
+        
+        
 
-        def recursive_helper(start):
-            if start not in dests:
-                return start
-            return recursive_helper(dests[start])
-
-        return recursive_helper(paths[0][0])
