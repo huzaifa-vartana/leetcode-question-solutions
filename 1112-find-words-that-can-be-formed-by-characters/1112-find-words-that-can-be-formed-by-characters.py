@@ -1,25 +1,18 @@
-from collections import defaultdict
-from typing import Counter, List
-
-
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
-        char_counter = defaultdict(int)
+        chars_counter = Counter(chars)
 
-        words_formed_len = 0
-        for char in chars:
-            char_counter[char] += 1
-
+        res = 0
         for word in words:
-            word_counter = defaultdict(int)
-            is_word_formed = True
-            for char in word:
-                word_counter[char] += 1
-                if word_counter[char] > char_counter[char]:
-                    is_word_formed = False
+            word_counter = Counter(word)
+
+            pos = True
+            for char, freq in word_counter.items():
+                if chars_counter[char] < freq:
+                    pos = False
                     break
+            if pos: res += len(word)
+                
 
-            if is_word_formed:
-                words_formed_len += len(word)
 
-        return words_formed_len
+        return res
