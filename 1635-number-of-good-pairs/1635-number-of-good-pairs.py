@@ -1,11 +1,16 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
-        count = defaultdict(int)
-        pos = 0
-        for idx in range(len(nums)):
-            num = nums[idx]
-            if count[num] > 0:
-                pos += count[num]
-            count[num] += 1
+        ctr = {}
+        good_pairs = 0
 
-        return pos
+        for idx, num in enumerate(nums):
+            if num in ctr:
+                good_pairs += ctr[num]
+                ctr[num] += 1
+            else:
+                ctr[num] = 1
+        print(ctr)
+
+        return good_pairs
+
+        
