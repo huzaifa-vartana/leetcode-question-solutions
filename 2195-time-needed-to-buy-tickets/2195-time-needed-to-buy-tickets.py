@@ -1,24 +1,20 @@
+from collections import deque
+from typing import List
+
+
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
+        q = deque(tickets)
 
         time = 0
-        N = len(tickets)
-        for idx in range(N):
-            ticket = tickets[idx]
+        while True:
+            p = q.popleft()
 
-            if idx == k:
-                time += ticket
-            elif idx > k:
-                time += min(ticket, tickets[k] - 1)
-            elif idx < k:
-                time += min(ticket, tickets[k])
+            if k == 0 and p-1 == 0:
+                return time + 1
 
+            if p-1 > 0:
+                q.append(p-1)
 
-        
-
-
-
-
-
-        return time
-        
+            k = len(q) - 1 if k == 0 else k - 1
+            time += 1
