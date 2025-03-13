@@ -14,8 +14,6 @@ class Solution:
             emp[employee.id] = employee
 
         def dfs(employee):
-            if not employee: return 0
-            print(employee)
             importance = employee.importance
             for subordinate in employee.subordinates:
                 importance += dfs(emp[subordinate])
