@@ -9,9 +9,7 @@ class Employee:
 
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
-        emp = {}
-        for employee in employees:
-            emp[employee.id] = employee
+        emp = {employee.id: employee for employee in employees}
 
         def dfs(employee):
             importance = employee.importance
