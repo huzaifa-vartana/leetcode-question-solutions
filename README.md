@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1746-largest-substring-between-two-equal-characters) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## String
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Array
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1297-maximum-number-of-balloons](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1297-maximum-number-of-balloons) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1708-design-parking-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1708-design-parking-system) |
+| [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 ## Dynamic Programming
 |  |
 | ------- |
