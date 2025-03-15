@@ -13,7 +13,6 @@ class Solution:
         for idx in range(N-2, -1, -1):
             backward[idx] = backward[idx+1] * nums[idx]
 
-        print(forward, backward)
         res = []
         for idx in range(N):
             if idx == 0:
