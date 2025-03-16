@@ -1,22 +1,21 @@
 class Solution:
     def leastBricks(self, wall: List[List[int]]) -> int:
-        edges = {}
-        max_freq = 0
+        edges_map = defaultdict(int)
 
-        N = len(wall)
+        total_gap = sum(wall[0])
+        max_gaps = 0
 
-        for row in range(N):
-            current_bricks = wall[row]
+        for row, bricks in enumerate(wall):
+            bricks_length = 0
+            for col, brick in enumerate(bricks):
 
-            current_bricks_length = 0
-            for idx, brick in enumerate(current_bricks):
-                if idx == len(current_bricks) - 1:
-                    continue
+                # dont want the last edge
+                if col == len(bricks) - 1: continue
 
-                current_bricks_length += brick
-                edges[current_bricks_length] = edges.get(
-                    current_bricks_length, 0) + 1
+                bricks_length += brick
+                edges_map[bricks_length] += 1
 
-                max_freq = max(max_freq, edges[current_bricks_length])
+                max_gaps = max(max_gaps, edges_map[bricks_length])
+            
 
-        return len(wall) - max_freq
+        return len(wall) - max_gaps
