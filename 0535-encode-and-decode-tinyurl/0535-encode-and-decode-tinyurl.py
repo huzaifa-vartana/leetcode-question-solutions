@@ -1,53 +1,35 @@
-import random
-
+class RandomNumberGenerator:
+    @staticmethod
+    def generate_random_string(length = 7):
+        characters = string.ascii_letters + string.digits
+        random_string = ''.join(random.choice(characters) for _ in range(length))
+        return random_string
 
 class Codec:
-
+    PREFIX = "tinyurl"
     def __init__(self) -> None:
         # generate a random number for the short url and it should be unique
-        self.map = dict()
+        self.hash = dict()
 
-    def generate_short_url(self, longUrl: str) -> str:
-        scheme, *rem_url = longUrl.split("//")
-        domain, *parts = rem_url[0].split("/")
-
-        short_url = ""
-
-        if domain not in self.map:
-
-            short_domain = ""
-            for i in range(6):
-                short_domain += chr(random.randint(97, 122))
-            self.map[domain] = short_domain
-
-        short_url += self.map[domain]
-
-        for part in parts:
-            short_part = ""
-            if part in self.map:
-                short_part = self.map[part]
-            else:
-                for i in range(6):
-                    short_part += chr(random.randint(97, 122))
-                self.map[part] = short_part
-
-            short_url += "/" + short_part
-
-        return short_url
 
     def encode(self, longUrl: str) -> str:
+        """Encodes a URL to a shortened URL.
+        """
 
-        encoded_url = ""
+        random_string = None
+        while True:
+            random_string = RandomNumberGenerator.generate_random_string()
+            if random_string not in self.hash:
+                break
 
-        short_url = self.generate_short_url(longUrl)
-        self.map[short_url] = longUrl
-        encoded_url = f"http://tinyurl.com/{short_url}"
-
-        print(encoded_url)
-        return encoded_url
+        self.hash[random_string] = longUrl
+        return "https://" + Codec.PREFIX + "/" + random_string
 
     def decode(self, shortUrl: str) -> str:
-        short_url = shortUrl.split("http://tinyurl.com/")[1]
-        long_url = self.map[short_url]
-        print(long_url)
-        return long_url
+        longUrl = self.hash[shortUrl.split("/")[-1]]
+        return longUrl
+        
+
+# Your Codec object will be instantiated and called as such:
+# codec = Codec()
+# codec.decode(codec.encode(url))
