@@ -1,22 +1,17 @@
-from collections import defaultdict
-from typing import List
-
-
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-
         N = len(nums)
         count = 0
-        prefix = defaultdict(int)
-        prefix[0] = 1
-        cum_sum = 0
+
+        sub_array_sum_count = { 0: 1 }
+        sub_array_sum = 0
 
         for num in nums:
-            cum_sum += num
+            sub_array_sum += num
 
-            if (cum_sum - k) in prefix:
-                count += prefix[(cum_sum - k)]
+            if (sub_array_sum - k) in sub_array_sum_count:
+                count += sub_array_sum_count[(sub_array_sum - k)]
 
-            prefix[cum_sum] += 1
+            sub_array_sum_count[sub_array_sum] = sub_array_sum_count.get(sub_array_sum, 0) + 1
 
         return count
