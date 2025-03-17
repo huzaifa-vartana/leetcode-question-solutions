@@ -1,36 +1,28 @@
-from collections import Counter
-from typing import List
-
-
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        N, M = len(s), len(p)
-        if N < M:
-            return []
-        p_count = Counter(p)
-        s_count = Counter()
-        res = []
-
-        left = 0
-        right = 0
+        ctr = Counter(p)
+        left, right, N = 0, 0, len(s)
+        window_ctr, res = defaultdict(int), []
 
         while right < N:
-            if s[right] in p_count:
-                if s_count[s[right]] < p_count[s[right]]:
-                    s_count[s[right]] += 1
-                    right += 1
-                    if right - left == M:
-                        res.append(left)
-                        s_count[s[left]] -= 1
-                        left += 1
+            left_char, right_char = s[left], s[right]
 
-                else:
-                    s_count[s[left]] -= 1
-                    left += 1
-            else:
-                s_count.clear()
+            if right_char not in ctr:
                 right += 1
                 left = right
+                window_ctr.clear()
+            else:
+                if window_ctr[right_char] < ctr[right_char]:
+                    right += 1
+                    window_ctr[right_char] += 1
+                    if right - left == len(p):
+                        res.append(left)
+                        window_ctr[left_char] -= 1
+                        left += 1
+                else:
+                    left += 1
+                    window_ctr[left_char] -= 1
+
 
         return res
-
+    
