@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1746-largest-substring-between-two-equal-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## String
 |  |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Linked List
@@ -165,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Counting
@@ -177,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1708-design-parking-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1708-design-parking-system) |
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -403,4 +407,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0690-employee-importance](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0690-employee-importance) |
+## Number Theory
+|  |
+| ------- |
+| [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 <!---LeetCode Topics End-->
