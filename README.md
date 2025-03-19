@@ -151,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0206-reverse-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0206-reverse-linked-list) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0207-course-schedule) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0133-clone-graph](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0207-course-schedule) |
@@ -424,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0690-employee-importance](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0690-employee-importance) |
 ## Number Theory
 |  |
@@ -433,4 +437,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0380-insert-delete-getrandom-o1) |
+## Binary Tree
+|  |
+| ------- |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 <!---LeetCode Topics End-->
