@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
 | [1297-maximum-number-of-balloons](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1297-maximum-number-of-balloons) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1297-maximum-number-of-balloons) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
+| [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1708-design-parking-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1708-design-parking-system) |
 ## Hash Function
 |  |
