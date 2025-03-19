@@ -1,13 +1,14 @@
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
-        N = len(s)
-        k = 10
+        repeated = defaultdict(int)
+        output = []
+        left = 0
+        for right in range(9, len(s)):
+            repeated[s[left:right+1]] += 1
 
-        hash_map = defaultdict(int)
-        res = []
-        for char in range(N):
-            hash_map[s[char:char+k]] += 1
-            if hash_map[s[char:char+k]] == 2:
-                res.append(s[char:char+k])
+            if repeated[s[left:right+1]] == 2:
+                output.append(s[left:right+1])
 
-        return res
+            left += 1
+
+        return output
