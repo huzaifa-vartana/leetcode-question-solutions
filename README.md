@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1392-find-the-difference-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1746-largest-substring-between-two-equal-characters) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1619-path-crossing](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1619-path-crossing) |
 | [1746-largest-substring-between-two-equal-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1746-largest-substring-between-two-equal-characters) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Math
 |  |
 | ------- |
@@ -238,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Two Pointers
@@ -316,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0187-repeated-dna-sequences) |
+| [1557-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1557-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Recursion
 |  |
 | ------- |
