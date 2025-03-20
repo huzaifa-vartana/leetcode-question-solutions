@@ -2,9 +2,11 @@ class Solution:
     def frequencySort(self, s: str) -> str:
         ctr = Counter(s)
         
-        sorted_ctr = {k: v for k, v in sorted(ctr.items(), key=lambda item: item[1], reverse=True)}
+        heap = [(-freq, char) for char, freq in ctr.items()]
+        heapq.heapify(heap)
         
         strr = ""
-        for char, freq in sorted_ctr.items():
-            strr += char * freq
+        while heap:
+            freq, char = heapq.heappop(heap)
+            strr += char * -(freq)
         return strr
