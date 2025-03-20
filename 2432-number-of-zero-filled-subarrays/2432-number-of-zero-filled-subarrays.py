@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
         N = len(nums)
@@ -6,8 +9,9 @@ class Solution:
         count = 0
         while right <= N:
             if right < N and nums[right] == 0:
-                right += 1
-                count += right - left
+                while right < N and nums[right] == 0:
+                    right += 1
+                    count += right - left
             else:
                 right += 1
                 left = right
