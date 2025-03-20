@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
+| [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## String
 |  |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 ## Array
 |  |
 | ------- |
@@ -335,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0605-can-place-flowers) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
+| [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 ## Backtracking
 |  |
 | ------- |
