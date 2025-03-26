@@ -9,18 +9,7 @@ class Solution:
 
         def helper(node):
             if not node: return
-            if node.left and node.right:
-                tmp_node = node.left
-                node.left = node.right
-                node.right = tmp_node
-            elif node.left:
-                tmp_node = node.left
-                node.left = None
-                node.right = tmp_node
-            elif node.right:
-                tmp_node = node.right
-                node.right = None
-                node.left = tmp_node
+            node.left, node.right = node.right, node.left
 
             helper(node.left)
             helper(node.right)
