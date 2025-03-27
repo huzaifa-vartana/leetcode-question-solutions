@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1013-fibonacci-number](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1013-fibonacci-number) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1950-sign-of-the-product-of-an-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0724-find-pivot-index) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2145-grid-game) |
 ## Bit Manipulation
