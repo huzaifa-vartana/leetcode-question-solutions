@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0203-remove-linked-list-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0206-reverse-linked-list) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0002-add-two-numbers) |
+| [0203-remove-linked-list-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0206-reverse-linked-list) |
 | [1013-fibonacci-number](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1013-fibonacci-number) |
 ## Greedy
