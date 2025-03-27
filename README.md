@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1297-maximum-number-of-balloons) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Queue
