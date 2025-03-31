@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## String
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2576-minimum-penalty-for-a-shop) |
 ## Array
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2145-grid-game](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2145-grid-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Linked List
@@ -177,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
 | [1512-design-underground-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1512-design-underground-system) |
 | [1708-design-parking-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1708-design-parking-system) |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 ## Hash Function
 |  |
 | ------- |
@@ -307,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0451-sort-characters-by-frequency) |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -478,4 +483,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0226-invert-binary-tree) |
+## Ordered Set
+|  |
+| ------- |
+| [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 <!---LeetCode Topics End-->
