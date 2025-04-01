@@ -387,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0399-evaluate-division](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0690-employee-importance](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0690-employee-importance) |
 ## Number Theory
 |  |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0226-invert-binary-tree) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Ordered Set
 |  |
 | ------- |
