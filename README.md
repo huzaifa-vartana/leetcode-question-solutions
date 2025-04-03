@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
+| [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## String
 |  |
 | ------- |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
+| [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## Linked List
 |  |
 | ------- |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2025-redistribute-characters-to-make-all-strings-equal](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2025-redistribute-characters-to-make-all-strings-equal) |
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -367,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2487-optimal-partition-of-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2487-optimal-partition-of-string) |
+| [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## Backtracking
 |  |
 | ------- |
