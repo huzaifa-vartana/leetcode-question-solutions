@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2129-number-of-pairs-of-interchangeable-rectangles](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2129-number-of-pairs-of-interchangeable-rectangles) |
 | [2145-grid-game](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2145-grid-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2432-number-of-zero-filled-subarrays) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1708-design-parking-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1708-design-parking-system) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2195-time-needed-to-buy-tickets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2195-time-needed-to-buy-tickets) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -351,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
 | [2145-grid-game](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2145-grid-game) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Sliding Window
 |  |
 | ------- |
