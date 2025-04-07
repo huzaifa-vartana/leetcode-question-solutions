@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0463-island-perimeter) |
 | [0496-next-greater-element-i](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0503-next-greater-element-ii) |
 | [0554-brick-wall](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0605-can-place-flowers) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0496-next-greater-element-i](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0503-next-greater-element-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
@@ -518,4 +520,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
