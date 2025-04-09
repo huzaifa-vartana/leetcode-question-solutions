@@ -158,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1547-destination-city](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1547-destination-city) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1635-number-of-good-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1635-number-of-good-pairs) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [1333-sort-the-jumbled-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1333-sort-the-jumbled-numbers) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
 ## Binary Search
 |  |
@@ -311,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 ## Stack
 |  |
