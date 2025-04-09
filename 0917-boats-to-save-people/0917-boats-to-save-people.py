@@ -8,19 +8,8 @@ class Solution:
         while l <= r:
             summ = people[l] + people[r]
             if summ <= limit: 
-                minn += 1
                 l += 1
-                r -= 1
-                continue
-
-            if limit == people[l]:
-                l += 1
-            elif limit == people[r]:
-                r -= 1
-            elif people[r] >= people[l]:
-                r -= 1
-            elif people[l] > people[r]:
-                l += 1
+            r -= 1
             minn += 1
 
             
