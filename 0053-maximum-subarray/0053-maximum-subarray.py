@@ -1,16 +1,16 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
+        """
+        [-2,1,-3,4,-1,2,1,-5,4]
 
         
-        max_so_far = nums[0]
-        max_sum_array_sum = nums[0]
+        """
+        g_max, l_max = nums[0], nums[0]
 
         for num in nums[1:]:
-
-            max_so_far = max(max_so_far + num, num)
-            max_sum_array_sum = max(max_sum_array_sum, max_so_far)
-
+            l_max = max(l_max + num, num)
+            g_max = max(g_max, l_max)
 
 
-
-        return max_sum_array_sum
+        return g_max
+        
