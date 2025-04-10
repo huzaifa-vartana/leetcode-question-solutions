@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0088-merge-sorted-array) |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0140-word-break-ii) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0119-pascals-triangle-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0119-pascals-triangle-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0131-palindrome-partitioning](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0140-word-break-ii) |
