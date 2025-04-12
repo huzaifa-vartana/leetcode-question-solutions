@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1039-find-the-town-judge) |
 | [1073-number-of-enclaves](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1073-number-of-enclaves) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
+| [1138-grumpy-bookstore-owner](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1333-sort-the-jumbled-numbers) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [1138-grumpy-bookstore-owner](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 ## Rolling Hash
