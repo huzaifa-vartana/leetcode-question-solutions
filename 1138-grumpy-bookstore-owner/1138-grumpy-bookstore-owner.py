@@ -1,25 +1,23 @@
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        N = len(customers)
-        total = sum(customer for customer, is_grumpy in zip(customers, grumpy) if not is_grumpy)
-        print(total)
-        
-        l, ans, local_all, local_real = 0, 0, 0, 0
+        N, l, base_satisfied_customers, extra_satisfied, max_extra_satisfied = len(customers), 0, 0, 0, 0
+
         for r in range(N):
-            local_all += customers[r]
+            # handle base_satisfied_customers
             if grumpy[r] == 0:
-                local_real += customers[r]
-            
+                base_satisfied_customers += customers[r]
+            else:
+                extra_satisfied += customers[r]
+
+            # handle invalid window
             if r - l + 1 > minutes:
-                local_all -= customers[l]
-                if grumpy[l] == 0:
-                    local_real -= customers[l]
+                if grumpy[l] == 1:
+                    extra_satisfied -= customers[l]
                 l += 1
-            if r - l + 1 == minutes:
-                ans = max(ans, total + local_all - local_real)
-
-        return ans
+            
+            max_extra_satisfied = max(max_extra_satisfied, extra_satisfied)
 
 
+
+        return base_satisfied_customers + max_extra_satisfied
         
-
