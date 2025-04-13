@@ -1,18 +1,21 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
-        N = len(nums)
-        l, r = 0, 0
         seen = set()
-        while r < N:
-            if nums[r] in seen: return True
+        l = 0
+
+        for r in range(len(nums)):
+
+            r_num = nums[r]
+            l_num = nums[l]
             
-            seen.add(nums[r])
-            r += 1
 
             if r - l > k:
-                seen.remove(nums[l])
+                seen.remove(l_num)
                 l += 1
-            
-            
 
+            if r_num in seen:
+                return True
+            seen.add(r_num)
+        
         return False
+        
