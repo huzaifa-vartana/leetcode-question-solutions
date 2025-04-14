@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0554-brick-wall](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0645-set-mismatch) |
 | [0690-employee-importance](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0690-employee-importance) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
+| [0567-permutation-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -397,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0567-permutation-in-string) |
 | [1138-grumpy-bookstore-owner](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
