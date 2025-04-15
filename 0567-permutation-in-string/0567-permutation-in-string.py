@@ -16,13 +16,10 @@ class Solution:
                 
             if r - l + 1 > M:
                 count[s2[l]] += 1
+                if count[s2[l]] == 0: del count[s2[l]]
                 l += 1
-                if count[s2[l - 1]] == 0:
-                    del count[s2[l - 1]]
-            if not count:
-                return True
-        if not count:
-            return True
+            if not count: return True
+        if not count: return True
                 
 
         return False
