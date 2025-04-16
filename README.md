@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
+| [0940-fruit-into-baskets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0940-fruit-into-baskets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1039-find-the-town-judge) |
 | [1112-find-words-that-can-be-formed-by-characters](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1112-find-words-that-can-be-formed-by-characters) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
+| [0940-fruit-into-baskets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0940-fruit-into-baskets) |
 | [0945-snakes-and-ladders](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0945-snakes-and-ladders) |
 | [0990-verifying-an-alien-dictionary](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1036-rotting-oranges](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1036-rotting-oranges) |
@@ -401,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0567-permutation-in-string) |
+| [0940-fruit-into-baskets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0940-fruit-into-baskets) |
 | [1138-grumpy-bookstore-owner](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
