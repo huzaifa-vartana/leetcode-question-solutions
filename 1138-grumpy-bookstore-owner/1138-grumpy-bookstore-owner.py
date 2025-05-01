@@ -1,23 +1,25 @@
 class Solution:
-    def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
-        N, l, base_satisfied_customers, extra_satisfied, max_extra_satisfied = len(customers), 0, 0, 0, 0
+    def maxSatisfied(self, customers: List[int], grumpy: List[int], k: int) -> int:
+        satisfied = 0
 
-        for r in range(N):
-            # handle base_satisfied_customers
-            if grumpy[r] == 0:
-                base_satisfied_customers += customers[r]
+        n = len(customers)
+        left = 0
+
+        base, best_extra, curr_extra = 0, 0, 0
+        for right in range(n):
+            if grumpy[right] == 0:
+                base += customers[right]
             else:
-                extra_satisfied += customers[r]
+                curr_extra += customers[right]
 
-            # handle invalid window
-            if r - l + 1 > minutes:
-                if grumpy[l] == 1:
-                    extra_satisfied -= customers[l]
-                l += 1
-            
-            max_extra_satisfied = max(max_extra_satisfied, extra_satisfied)
+            if right - left + 1 > k:
+                if grumpy[left] == 1:
+                    curr_extra -= customers[left]
+                left += 1
+
+            best_extra = max(curr_extra, best_extra)
+
+        return base + best_extra
 
 
-
-        return base_satisfied_customers + max_extra_satisfied
         
