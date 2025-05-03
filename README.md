@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0724-find-pivot-index) |
 | [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
+| [0792-binary-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0792-binary-search) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0713-subarray-product-less-than-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0713-subarray-product-less-than-k) |
+| [0792-binary-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0792-binary-search) |
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
