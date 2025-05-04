@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0140-word-break-ii](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0140-word-break-ii) |
+| [0162-find-peak-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0179-largest-number) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0035-search-insert-position) |
+| [0162-find-peak-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0209-minimum-size-subarray-sum) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
