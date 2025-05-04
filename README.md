@@ -169,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0792-binary-search) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
+| [0907-koko-eating-bananas](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [0932-monotonic-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0932-monotonic-array) |
 | [0940-fruit-into-baskets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0940-fruit-into-baskets) |
@@ -357,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0907-koko-eating-bananas) |
 | [1249-snapshot-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1249-snapshot-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
