@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0088-merge-sorted-array) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0162-find-peak-element](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0209-minimum-size-subarray-sum) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0036-valid-sudoku) |
+| [0074-search-a-2d-matrix](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0304-range-sum-query-2d-immutable) |
