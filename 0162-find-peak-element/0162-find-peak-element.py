@@ -1,35 +1,20 @@
+from typing import List
+
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
-        
         n = len(nums)
-        low, high = 0, n - 1
+        l, r = 0, n - 1
+        while l < r:
+            m = (l+r) // 2
+            if (m == 0 and nums[m] > nums[m+1]) or (m == n - 1 and nums[m] > nums[m-1]):
+                return m
+            if m+1 in range(n) and nums[m] > nums[m+1] and m-1 in range(n) and nums[m] > nums[m-1]:
+                return m
 
-        if n == 1: return 0
-                
-        if nums[0] > nums[1]: return 0
-        if nums[n-1] > nums[n-2]: return n-1
-
-
-        while low <= high:
-            mid = (low + high) // 2
-
-            # check if findPeakElement
-            if (mid + 1) in range(0, n) and (mid - 1) in range(0, n) and nums[mid] > nums[mid-1] and nums[mid] > nums[mid+1]:
-                return mid
-
-            # divide search space
-            if (mid + 1) in range(0, n) and nums[mid] <= nums[mid+1]:
-                low = mid + 1
+            if m+1 in range(n) and nums[m] < nums[m+1]:
+                l = m + 1
             else:
-                high = mid - 1
+                r = m - 1
 
-
-
-
-
-
-
-
-
-
-        return -1
+        return l
