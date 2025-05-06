@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 ## Linked List
 |  |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2696-the-number-of-beautiful-subsets) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0917-boats-to-save-people) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1894-merge-strings-alternately](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1894-merge-strings-alternately) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Binary Search
 |  |
 | ------- |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1730-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1730-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Stack
 |  |
 | ------- |
