@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0355-design-twitter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0203-remove-linked-list-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0355-design-twitter) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Design
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0232-implement-queue-using-stacks) |
 | [0303-range-sum-query-immutable](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0304-range-sum-query-2d-immutable) |
+| [0355-design-twitter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0535-encode-and-decode-tinyurl](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0817-design-hashmap](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0817-design-hashmap) |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/huzaifa-vartana/leetcode-question-solutions/tree/master/1014-k-closest-points-to-origin) |
