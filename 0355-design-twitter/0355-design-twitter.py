@@ -1,12 +1,10 @@
-from collections import defaultdict
-import heapq
-
 class User:
     def __init__(self):
         self.following = set()
         self.tweets = []
 
 class Twitter:
+
     def __init__(self):
         self.users = defaultdict(User)
         self.curr_time = 0
@@ -14,26 +12,35 @@ class Twitter:
 
     def postTweet(self, userId: int, tweetId: int) -> None:
         self.curr_time += 1
-        self.users[userId].tweets.append((self.curr_time, tweetId))
+        self.users[userId].tweets.append((self.curr_time, tweetId))        
 
     def getNewsFeed(self, userId: int) -> List[int]:
-        heap = []
-        user = self.users[userId]
-        users_to_check = user.following | {userId}  # Include self
+        user_following = self.users[userId].following
+        users_to_check = user_following | {userId}
+        max_heap = []
 
         for uid in users_to_check:
-            for time, tid in reversed(self.users[uid].tweets[-10:]):  # only check last 10 tweets per user
-                heapq.heappush(heap, (-time, tid))  # max-heap by negative time
+            for t_time, tid in reversed(self.users[uid].tweets[-10:]):
+                heapq.heappush(max_heap, (t_time, tid))
+                if len(max_heap) > self.k:
+                    heapq.heappop(max_heap)
 
-        result = []
-        while heap and len(result) < self.k:
-            result.append(heapq.heappop(heap)[1])
-
-        return result
+        max_heap.sort(reverse=True)
+        return [tweetId for _, tweetId in max_heap]
 
     def follow(self, followerId: int, followeeId: int) -> None:
         if followerId != followeeId:
             self.users[followerId].following.add(followeeId)
+        
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
         self.users[followerId].following.discard(followeeId)
+        
+
+
+# Your Twitter object will be instantiated and called as such:
+# obj = Twitter()
+# obj.postTweet(userId,tweetId)
+# param_2 = obj.getNewsFeed(userId)
+# obj.follow(followerId,followeeId)
+# obj.unfollow(followerId,followeeId)
